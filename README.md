@@ -81,6 +81,7 @@ Dive in, tweak to your heart's content, and transform your Windows environment i
 ## 🎨 Themes
 
 ⭐ Starting from version 3.7.0, this dotfiles configuration is optimized for displays with a resolution of 1920×1080 or higher.
+
 ⚠️ On resolutions below 1920×1080, the status bar UI may appear cramped. I recommend using my dotfiles as a base and customizing them to fit your needs (see ⚙ Configure and customize themes section).
 
 | ❤️ jade ❤️ |
