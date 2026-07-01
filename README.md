@@ -80,7 +80,8 @@ Dive in, tweak to your heart's content, and transform your Windows environment i
 
 ## 🎨 Themes
 
-ℹ️Note: Since version 3.7.0, this dotfiles is configured for 2560x1600 resolution + 125% windows display scale (see previews below), it might looks nearly the same as 1920x1200 at 100% scale, on lower resolution everything might look bigger. I suggest using my dotfiles as a base and customizing it to fit your specific needs (See **⚙ Configure and customize themes** section).
+⭐ Starting from version 3.7.0, this dotfiles configuration is optimized for displays with a resolution of 1920×1080 or higher.
+⚠️ On resolutions below 1920×1080, the status bar UI may appear cramped. I recommend using my dotfiles as a base and customizing them to fit your needs (see ⚙ Configure and customize themes section).
 
 | ❤️ jade ❤️ |
 | :------------------------------------------------------------: |
@@ -337,6 +338,8 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ./.config/zs
 ---
 
 ## ⚙ Configure and customize themes
+
+*ℹ️ You might want to fork my repository to manage it on your own*
 
 You can customize existing theme or create a new one inside `~/.local/share/chezmoi/.dotfile/dot_rice-manager/rices`, re-apply them with `chezmoi apply` command, and load them with `rice <theme-name>` (see **Change theme** below).
 
