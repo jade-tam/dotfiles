@@ -177,6 +177,10 @@ powershell ~/.local/share/chezmoi/scripts/install-packages.ps1
 
 ### 🔥 Step By Step Installation Video ⭐
 
+⚠️ **Installation video is a bit outdated which is not including version 3.8.0 changes note:**
+- Terminal no longer default running with admin permission -> no more UAC pop-up everytime terminal open, much more secure terminal
+- Need to follow "enable sudo feature" in step "3️⃣ Install packages" below to enable windows 11 sudo feature which allow running admin required command with sudo, for example `sudo btop`
+
 **[View Installation Video](https://www.youtube.com/watch?v=7uYbdCsaLSc)**
 
 ### 0️⃣ Pre-install notices
@@ -215,6 +219,8 @@ Those fonts are used by all the themes, they need to be download and install man
 - Enable allow execute PowerShell script in windows settings:
   ![image](https://github.com/user-attachments/assets/2b9c84f2-56d5-46f6-8ced-6e030ca5e47a)
   ![image](https://github.com/user-attachments/assets/70a6666e-b4ff-4f03-8299-4fd5acb12797)
+- In the same window, enable sudo feature (allow running command with admin permission inline, for example `sudo btop`, since dotfiles version **3.8.0**):
+  - <img width="847" height="382" alt="image" src="https://github.com/user-attachments/assets/10fb02a8-2cfc-4d6d-ae0d-e0412065e838" />
 - Edit `install-packages.ps1`, comment out packages/apps that are not needed (All non-required packages are commented by default)
 - ⚠️ Note: If glazewm or zebar already installed, please uninstall them first before running the install script, this will make sure the versions are correct.
 - Run `install-packages.ps1` script with **PowerShell** to install necessary packages (⚠️ Note: sometime installation could fail, re-run the script to ensure all packages has been installed)
