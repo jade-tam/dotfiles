@@ -1,6 +1,6 @@
 {
   "name": "jadetam-dotfiles",
-  "version": "3.7.1",
+  "version": "3.8.0",
   "description": "A configurable ricing dotfile for Windows 11",
   "scripts": {
     "version-packages": "changeset version",
