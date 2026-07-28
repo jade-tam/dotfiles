@@ -75,6 +75,7 @@
           "light": "Campbell"
         },
         "commandline": "C:/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64 -full-path -shell zsh",
+        "elevate": false,
         "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
         "icon": "C:/msys64/ucrt64.ico",
         "name": "UCRT64 / MSYS2"
@@ -222,6 +223,29 @@
       "yellow": "#B39A8D"
     },
     {
+      "background": "#221F22",
+      "black": "#665C51",
+      "blue": "#59C6FF",
+      "brightBlack": "#B2A18D",
+      "brightBlue": "#60B3FF",
+      "brightCyan": "#8AE4FF",
+      "brightGreen": "#D6FF93",
+      "brightPurple": "#BFA6FF",
+      "brightRed": "#F77188",
+      "brightWhite": "#FEFFF5",
+      "brightYellow": "#FFEC68",
+      "cursorColor": "#FF6188",
+      "cyan": "#78DCE8",
+      "foreground": "#FDF9F3",
+      "green": "#A9DC76",
+      "name": "Monokai Pro",
+      "purple": "#AB9DF2",
+      "red": "#FF6188",
+      "selectionBackground": "#665C51",
+      "white": "#FDF9F3",
+      "yellow": "#FFD866"
+    },
+    {
       "background": "#2B213C",
       "black": "#2B213C",
       "blue": "#A5AAD4",
@@ -243,29 +267,6 @@
       "selectionBackground": "#4D4160",
       "white": "#998BAD",
       "yellow": "#C7C691"
-    },
-    {
-      "name": "Monokai Pro",
-      "background": "#221f22",
-      "foreground": "#fdf9f3",
-      "cursorColor": "#ff6188",
-      "selectionBackground": "#665C51",
-      "black": "#665C51",
-      "red": "#ff6188",
-      "green": "#a9dc76",
-      "yellow": "#ffd866",
-      "blue": "#59c6ff",
-      "purple": "#ab9df2",
-      "cyan": "#78dce8",
-      "white": "#fdf9f3",
-      "brightBlack": "#b2a18d",
-      "brightRed": "#f77188",
-      "brightGreen": "#d6ff93",
-      "brightYellow": "#ffec68",
-      "brightBlue": "#60b3ff",
-      "brightPurple": "#bfa6ff",
-      "brightCyan": "#8ae4ff",
-      "brightWhite": "#fefff5"
     }
   ],
   "showTabsInTitlebar": true,
