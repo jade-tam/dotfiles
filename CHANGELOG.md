@@ -1,5 +1,12 @@
 # aquapaka-dotfiles
 
+## 3.8.0
+
+### Minor Changes
+
+- 1a82da7: feat: default running terminal without admin permission
+- b85b8ec: feat: configure zsh alias to use with windows 11 sudo command
+
 ## 3.7.1
 
 ### Patch Changes
